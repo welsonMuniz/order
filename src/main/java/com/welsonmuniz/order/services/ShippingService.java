@@ -9,7 +9,7 @@ public class ShippingService {
         if (order.getBasic() < 100 ){
             return 20.0;
         }
-        if (order.getBasic() < 199 ){
+        if (order.getBasic() < 200 ){
             return 12.0;
         }
         return 0.0;
